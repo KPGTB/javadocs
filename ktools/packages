@@ -1,10 +1,12 @@
 com.github.kpgtb.ktools
+com.github.kpgtb.ktools.listener
 com.github.kpgtb.ktools.manager.cache
 com.github.kpgtb.ktools.manager.command.annotation
 com.github.kpgtb.ktools.manager.command
 com.github.kpgtb.ktools.manager.command.parser
 com.github.kpgtb.ktools.manager.command.parser.java
 com.github.kpgtb.ktools.manager.command.parser.spigot
+com.github.kpgtb.ktools.manager.data
 com.github.kpgtb.ktools.manager.debug
 com.github.kpgtb.ktools.manager.gui.action
 com.github.kpgtb.ktools.manager.gui.container
@@ -13,4 +15,7 @@ com.github.kpgtb.ktools.manager.gui
 com.github.kpgtb.ktools.manager.language
 com.github.kpgtb.ktools.manager.listener
 com.github.kpgtb.ktools.manager.recipe
+com.github.kpgtb.ktools.manager.resourcepack
+com.github.kpgtb.ktools.manager.ui
+com.github.kpgtb.ktools.manager.updater
 com.github.kpgtb.ktools.util
