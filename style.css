@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Righteous&display=swap');
+* {
+    margin: 0;
+}
+
+:root {
+    --h: 100vh;
+}
+
+::-webkit-scrollbar {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+body {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: normal;
+    font-size: 26px;
+}
+
+#bg {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: -999;
+}
+
+.page {
+    width: 100vw;
+    height: calc(var(--h) * 1px);
+}
+
+.pageAnim {
+    animation: page-show 1s 1;
+}
+
+a:link {background-color: transparent; text-decoration: none;}
+a:visited {background-color: transparent; text-decoration: none;}
+a::selection {background-color: transparent; text-decoration: none;}
+
+@keyframes page-show {
+    0% {
+        transform: scale(.8);
+        opacity: 0.01;
+    }    
+    50% {
+        transform: scale(.8);
+        opacity: 0.01;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+#findhere div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#findhere a {
+    color: white;
+    font-size: calc(20px + 1.5vw);
+    text-align: center;
+    transition: all .3s ease-out;
+    font-family: 'Righteous', cursive;
+}
+
+#findhere a:hover {
+    transform: scale(1.2);
+    color:#bb2845;
+    opacity: .75;
+    cursor: pointer;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    opacity: .25;
+    padding: 10px;
+}
