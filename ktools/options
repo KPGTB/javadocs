@@ -17,10 +17,10 @@
 -docencoding
 'UTF-8'
 -doctitle
-'Ktools 1.01-SNAPSHOT API'
+'Ktools 1.02-SNAPSHOT API'
 -linkoffline
 'https://docs.oracle.com/javase/8/docs/api' 'C:/Users/kpg2k/Desktop/Development/Minecraft/src/Ktools/target/javadoc-bundle-options'
 -use
 -version
 -windowtitle
-'Ktools 1.01-SNAPSHOT API'
+'Ktools 1.02-SNAPSHOT API'
