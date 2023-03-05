@@ -3,6 +3,7 @@ com.github.kpgtb.ktools.listener
 com.github.kpgtb.ktools.manager.cache
 com.github.kpgtb.ktools.manager.command.annotation
 com.github.kpgtb.ktools.manager.command
+com.github.kpgtb.ktools.manager.command.parser.cusotm
 com.github.kpgtb.ktools.manager.command.parser
 com.github.kpgtb.ktools.manager.command.parser.java
 com.github.kpgtb.ktools.manager.command.parser.spigot
